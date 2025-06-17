@@ -1,0 +1,12 @@
+paths:
+  raw: data/breast_cancer_raw.csv
+  clean: data/breast_cancer_clean.csv
+  model: results/logreg.pkl
+  metrics: results/metrics.json
+
+training:
+  test_size: 0.2
+  random_state: 42
+
+upload:
+  type: local  
